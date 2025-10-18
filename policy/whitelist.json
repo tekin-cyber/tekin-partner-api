@@ -1,0 +1,11 @@
+{
+  "publishers": ["BMF", "BGBl", "BMJ", "OECD", "GİB"],
+  "domains": [
+    "bmf.bund.de",
+    "bundesanzeiger.de",
+    "gesetze-im-internet.de",
+    "oecd.org",
+    "gib.gov.tr"
+  ],
+  "last_reviewed": "2025-10-01"
+}
