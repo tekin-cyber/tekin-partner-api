@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "income_type": "unselbständige Arbeit",
+      "condition": {
+        "days_in_country": ">183"
+      },
+      "taxable_country": "Türkei",
+      "method": "Anrechnungsmethode",
+      "article": "Art. 15 Abs. 1 DBA",
+      "explanation": "Tätigkeitsstaatprinzip; Aufenthalt über 183 Tage führt zur Steuerpflicht im Tätigkeitsstaat."
+    },
+    {
+      "income_type": "unselbständige Arbeit",
+      "condition": {
+        "days_in_country": "<=183",
+        "employer_country": "Deutschland"
+      },
+      "taxable_country": "Deutschland",
+      "method": "Freistellung mit Progressionsvorbehalt",
+      "article": "Art. 15 Abs. 2 DBA",
+      "explanation": "183-Tage-Regel erfüllt; Besteuerungsrecht verbleibt im Ansässigkeitsstaat."
+    }
+  ]
+}
