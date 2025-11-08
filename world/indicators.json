@@ -1,0 +1,9 @@
+{
+  "gdp_tr": 905000000000,
+  "gdp_de": 4200000000000,
+  "tax_ratio_tr": 21.3,
+  "tax_ratio_de": 39.5,
+  "inflation_tr": 55.0,
+  "inflation_de": 3.2,
+  "source": "World Bank / IMF, Datenstand 2024"
+}
