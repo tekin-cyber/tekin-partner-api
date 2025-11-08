@@ -1,0 +1,12 @@
+{
+  "corporate_tax": 25,
+  "withholding_tax": 15,
+  "income_tax_brackets": [
+    { "limit": 32000, "rate": 15 },
+    { "limit": 70000, "rate": 20 },
+    { "limit": 250000, "rate": 27 },
+    { "limit": 880000, "rate": 35 },
+    { "above": 880000, "rate": 40 }
+  ],
+  "source": "Gelir İdaresi Başkanlığı (GİB), Stand 2024"
+}
