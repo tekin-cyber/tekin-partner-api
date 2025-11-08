@@ -1,0 +1,12 @@
+{
+  "export_format": "JSON",
+  "fields": ["Mandant", "Jahr", "Einkunftsart", "DBA_Artikel", "Besteuerungsmethode"],
+  "description": "Standardisierte Exportstruktur für DATEV- oder DMS-Systeme, basierend auf Gutachtenergebnissen.",
+  "example": {
+    "Mandant": "Muster GmbH",
+    "Jahr": 2024,
+    "Einkunftsart": "unselbständige Arbeit",
+    "DBA_Artikel": "15",
+    "Besteuerungsmethode": "Freistellung mit Progressionsvorbehalt"
+  }
+}
