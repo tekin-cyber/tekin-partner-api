@@ -1,11 +1,24 @@
 {
-  "publishers": ["BMF", "BGBl", "BMJ", "OECD", "GİB"],
+  "meta": {
+    "title": "Vertrauenswürdige Quellen — Whitelist für GPT-Prüfung DBA Deutschland-Türkei",
+    "valid_from": "2025-01-01",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01"
+  },
+  "publishers": ["BMF", "BGBl", "BMJ", "OECD", "GİB", "BFH", "BZSt"],
   "domains": [
     "bmf.bund.de",
     "bundesanzeiger.de",
     "gesetze-im-internet.de",
     "oecd.org",
-    "gib.gov.tr"
+    "gib.gov.tr",
+    "bundesfinanzhof.de",
+    "bzst.de",
+    "juris.de"
   ],
-  "last_reviewed": "2025-10-01"
+  "excluded_sources": [
+    "Wikipedia",
+    "Steuerberater-Blogs ohne Quellenangabe",
+    "Foren (z.B. steuerberater.de, gutefrage.net)"
+  ]
 }

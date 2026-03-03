@@ -1,1 +1,39 @@
-[]
+{
+  "meta": {
+    "title": "BMF-Schreiben — Relevante Verlautbarungen DBA Deutschland-Türkei",
+    "source": "Bundesministerium der Finanzen (BMF)",
+    "valid_from": "2024-01-01",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01"
+  },
+  "documents": [
+    {
+      "titel": "BMF-Merkblatt zu Verständigungsverfahren",
+      "datum": "2023-06-09",
+      "aktenzeichen": "IV B 3 - S 1304/19/10006 :010",
+      "zusammenfassung": "Verfahrensregeln für Verständigungs- und Schiedsverfahren nach DBA. Antragstellung, Fristen, Zuständigkeiten (BZSt).",
+      "relevanz": "Doppelbesteuerung, Art. 25 DBA DE-TR"
+    },
+    {
+      "titel": "BMF-Schreiben zu § 50d Abs. 8 EStG (Subject-to-tax)",
+      "datum": "2016-12-20",
+      "aktenzeichen": "IV B 2 - S 1300/08/10027",
+      "zusammenfassung": "Anwendung der Subject-to-tax-Klausel bei Arbeitnehmereinkünften; Nachweisanforderungen.",
+      "relevanz": "Art. 15 DBA DE-TR, § 50d Abs. 8 EStG"
+    },
+    {
+      "titel": "BMF-Umrechnungskurse für Fremdwährungen",
+      "datum": "jährlich",
+      "zusammenfassung": "Amtliche Umrechnungskurse für steuerliche Zwecke. Für TRY aufgrund Inflation besonders relevant.",
+      "relevanz": "§ 11 EStG, Zufluss-Abfluss-Prinzip",
+      "url_pattern": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Einkommensteuer/umrechnungskurse.html"
+    },
+    {
+      "titel": "BMF-Merkblatt Steuerliche Behandlung von Arbeitnehmerentsendungen",
+      "datum": "2023-06-09",
+      "aktenzeichen": "IV B 8 - S 2293/19/10012",
+      "zusammenfassung": "Grundsätze zur steuerlichen Behandlung grenzüberschreitender Arbeitnehmerentsendungen; wirtschaftlicher Arbeitgeberbegriff.",
+      "relevanz": "Art. 15 DBA DE-TR, 183-Tage-Regel, Entsendungen"
+    }
+  ]
+}

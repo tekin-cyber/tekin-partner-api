@@ -1,9 +1,22 @@
 {
-  "gdp_tr": 905000000000,
-  "gdp_de": 4200000000000,
-  "tax_ratio_tr": 21.3,
-  "tax_ratio_de": 39.5,
-  "inflation_tr": 55.0,
-  "inflation_de": 3.2,
-  "source": "World Bank / IMF, Datenstand 2024"
+  "meta": {
+    "title": "Volkswirtschaftliche Indikatoren — Deutschland und Türkei",
+    "source": "World Bank / IMF",
+    "valid_from": "2024-01-01",
+    "valid_until": "2024-12-31",
+    "last_reviewed": "2025-10-01",
+    "update_note": "Jährliche Aktualisierung empfohlen. Inflationswert TR besonders volatil."
+  },
+  "year": 2024,
+  "germany": {
+    "gdp_eur": 4200000000000,
+    "tax_ratio_percent": 39.5,
+    "inflation_percent": 3.2
+  },
+  "turkey": {
+    "gdp_usd": 905000000000,
+    "tax_ratio_percent": 21.3,
+    "inflation_percent": 55.0,
+    "inflation_note": "Hohe Inflation beeinflusst EUR/TRY-Kurs und reale Steuerbelastung erheblich."
+  }
 }

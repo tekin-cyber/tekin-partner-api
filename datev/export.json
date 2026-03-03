@@ -1,12 +1,44 @@
 {
+  "meta": {
+    "title": "DATEV-Exportformat — DBA-Gutachten Deutschland-Türkei",
+    "valid_from": "2024-01-01",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01"
+  },
   "export_format": "JSON",
-  "fields": ["Mandant", "Jahr", "Einkunftsart", "DBA_Artikel", "Besteuerungsmethode"],
+  "fields": [
+    "Mandant",
+    "Jahr",
+    "Einkunftsart",
+    "DBA_Artikel",
+    "Besteuerungsmethode",
+    "Ansässigkeit",
+    "Tage_TR",
+    "Tage_DE",
+    "Bruttoeinkommen_EUR",
+    "Bruttoeinkommen_TRY",
+    "Quellensteuer_TR_EUR",
+    "Anrechnung_34c_EUR",
+    "Progressionsvorbehalt_anwendbar",
+    "Erstellt_am",
+    "Erstellt_von"
+  ],
   "description": "Standardisierte Exportstruktur für DATEV- oder DMS-Systeme, basierend auf Gutachtenergebnissen.",
   "example": {
     "Mandant": "Muster GmbH",
     "Jahr": 2024,
     "Einkunftsart": "unselbständige Arbeit",
     "DBA_Artikel": "15",
-    "Besteuerungsmethode": "Freistellung mit Progressionsvorbehalt"
+    "Besteuerungsmethode": "Freistellung mit Progressionsvorbehalt",
+    "Ansässigkeit": "Deutschland",
+    "Tage_TR": 120,
+    "Tage_DE": 245,
+    "Bruttoeinkommen_EUR": 65000,
+    "Bruttoeinkommen_TRY": null,
+    "Quellensteuer_TR_EUR": null,
+    "Anrechnung_34c_EUR": null,
+    "Progressionsvorbehalt_anwendbar": false,
+    "Erstellt_am": "2025-01-15",
+    "Erstellt_von": "tekin-partner-api"
   }
 }

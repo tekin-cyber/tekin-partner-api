@@ -1,12 +1,33 @@
 {
-  "corporate_tax": 25,
-  "withholding_tax": 15,
+  "meta": {
+    "title": "Türkische Steuersätze — GİB",
+    "source": "Gelir İdaresi Başkanlığı (GİB)",
+    "valid_from": "2024-01-01",
+    "valid_until": "2024-12-31",
+    "last_reviewed": "2025-10-01",
+    "update_note": "Türkische Einkommensteuergrenzen werden jährlich durch Inflationsanpassung (yeniden değerleme) erhöht. Jährliche Aktualisierung erforderlich."
+  },
+  "year": 2024,
+  "currency": "TRY",
+  "corporate_tax_percent": 25,
+  "withholding_tax_percent": 15,
   "income_tax_brackets": [
-    { "limit": 32000, "rate": 15 },
-    { "limit": 70000, "rate": 20 },
-    { "limit": 250000, "rate": 27 },
-    { "limit": 880000, "rate": 35 },
-    { "above": 880000, "rate": 40 }
+    { "limit_try": 32000, "rate_percent": 15 },
+    { "limit_try": 70000, "rate_percent": 20 },
+    { "limit_try": 250000, "rate_percent": 27 },
+    { "limit_try": 880000, "rate_percent": 35 },
+    { "above_try": 880000, "rate_percent": 40 }
   ],
-  "source": "Gelir İdaresi Başkanlığı (GİB), Stand 2024"
+  "special_rates": {
+    "dividend_withholding_percent": 10,
+    "interest_withholding_percent": 15,
+    "royalty_withholding_percent": 20,
+    "real_estate_withholding_percent": 20
+  },
+  "dba_max_rates": {
+    "dividends_general_percent": 15,
+    "dividends_substantial_participation_percent": 10,
+    "interest_percent": 15,
+    "royalties_percent": 10
+  }
 }

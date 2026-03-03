@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Steuerliche Abgabefristen — Deutschland und Türkei",
+    "note": "Alle Fristen gelten vorbehaltlich gesetzlicher oder behördlicher Änderungen. Bei steuerlicher Vertretung können abweichende Fristen gelten.",
+    "last_reviewed": "2025-10-01"
+  },
+  "germany": {
+    "einkommensteuer": [
+      {
+        "bezeichnung": "Abgabe ESt-Erklärung (ohne steuerliche Vertretung)",
+        "frist": "31. Juli des Folgejahres",
+        "frist_iso_pattern": "--07-31",
+        "rechtsgrundlage": "§ 149 Abs. 2 AO",
+        "note": "Gilt für Veranlagungszeitraum des Vorjahres. Fällt der 31.07. auf ein Wochenende, verschiebt sich die Frist auf den nächsten Werktag."
+      },
+      {
+        "bezeichnung": "Abgabe ESt-Erklärung (mit Steuerberater)",
+        "frist": "28./29. Februar des übernächsten Jahres",
+        "frist_iso_pattern": "--02-28",
+        "rechtsgrundlage": "§ 149 Abs. 3 AO",
+        "note": "Verlängerung auf Ende Februar des Zweitfolgejahres. FA kann im Einzelfall Vorabanforderung erlassen."
+      },
+      {
+        "bezeichnung": "Vorauszahlungen ESt — Quartal 1",
+        "frist": "10. März",
+        "frist_iso_pattern": "--03-10",
+        "rechtsgrundlage": "§ 37 EStG"
+      },
+      {
+        "bezeichnung": "Vorauszahlungen ESt — Quartal 2",
+        "frist": "10. Juni",
+        "frist_iso_pattern": "--06-10",
+        "rechtsgrundlage": "§ 37 EStG"
+      },
+      {
+        "bezeichnung": "Vorauszahlungen ESt — Quartal 3",
+        "frist": "10. September",
+        "frist_iso_pattern": "--09-10",
+        "rechtsgrundlage": "§ 37 EStG"
+      },
+      {
+        "bezeichnung": "Vorauszahlungen ESt — Quartal 4",
+        "frist": "10. Dezember",
+        "frist_iso_pattern": "--12-10",
+        "rechtsgrundlage": "§ 37 EStG"
+      }
+    ],
+    "lohnsteuer": [
+      {
+        "bezeichnung": "Lohnsteuer-Anmeldung monatlich",
+        "frist": "10. des Folgemonats",
+        "rechtsgrundlage": "§ 41a EStG",
+        "note": "Bei Jahreslohnsteuer < 1.080 EUR: vierteljährlich. < 360 EUR: jährlich."
+      },
+      {
+        "bezeichnung": "Lohnsteuer-Jahresausgleich / ELSTER-Übermittlung",
+        "frist": "28. Februar des Folgejahres",
+        "frist_iso_pattern": "--02-28",
+        "rechtsgrundlage": "§ 41b EStG"
+      }
+    ],
+    "umsatzsteuer": [
+      {
+        "bezeichnung": "USt-Voranmeldung monatlich",
+        "frist": "10. des Folgemonats",
+        "rechtsgrundlage": "§ 18 UStG",
+        "note": "Dauerfristverlängerung: Verschiebung um 1 Monat gegen 1/11-Sondervorauszahlung möglich."
+      },
+      {
+        "bezeichnung": "USt-Jahreserklärung",
+        "frist": "31. Juli des Folgejahres (ohne StB) / 28. Feb. übernächstes Jahr (mit StB)",
+        "rechtsgrundlage": "§ 18 Abs. 3 UStG"
+      }
+    ],
+    "verfahren": [
+      {
+        "bezeichnung": "Einspruchsfrist gegen Steuerbescheid",
+        "frist": "1 Monat ab Bekanntgabe",
+        "rechtsgrundlage": "§ 355 AO",
+        "note": "Bekanntgabe gilt am 3. Tag nach Aufgabe zur Post (§ 122 Abs. 2 AO). Bei Bekanntgabe im Ausland: 1 Monat nach nachgewiesenem Zugang."
+      },
+      {
+        "bezeichnung": "Antrag auf Fristverlängerung (ESt ohne StB)",
+        "frist": "Vor Ablauf der regulären Frist (vor 31. Juli)",
+        "rechtsgrundlage": "§ 109 AO",
+        "note": "Antrag beim Finanzamt; Begründung erforderlich (Krankheit, Auslandsaufenthalt, fehlende Unterlagen)."
+      },
+      {
+        "bezeichnung": "Antrag auf Verständigungsverfahren",
+        "frist": "3 Jahre ab Bekanntgabe des DBA-widrigen Bescheids",
+        "rechtsgrundlage": "Art. 25 DBA DE-TR; BMF-Merkblatt Verständigungsverfahren",
+        "note": "Antrag beim BZSt (Deutschland) zu stellen. Paralleler Antrag in TR empfohlen."
+      }
+    ]
+  },
+  "turkey": {
+    "gelir_vergisi": [
+      {
+        "bezeichnung": "Yıllık Gelir Vergisi Beyannamesi (Jahreserklärung)",
+        "frist": "1.-31. März des Folgejahres",
+        "rechtsgrundlage": "Gelir Vergisi Kanunu (GVK) Art. 92",
+        "note": "Für Einkünfte des Vorjahres. Zahlung in zwei Raten: März und Juli."
+      },
+      {
+        "bezeichnung": "Geçici Vergi (Vorauszahlung)",
+        "frist": "Quartalsmäßig: 17. Mai, 17. Aug., 17. Nov., 17. Feb.",
+        "rechtsgrundlage": "GVK Art. 120",
+        "note": "Basis: 25% des laufenden Quartalsgewinns."
+      }
+    ],
+    "kdv": [
+      {
+        "bezeichnung": "KDV Beyannamesi (Umsatzsteuer-Voranmeldung)",
+        "frist": "26. des Folgemonats",
+        "rechtsgrundlage": "Katma Değer Vergisi Kanunu (KDVK) Art. 41",
+        "note": "Monatliche Abgabe; keine Dauerfristverlängerung wie in Deutschland."
+      }
+    ],
+    "erstattung": [
+      {
+        "bezeichnung": "Erstattungsantrag Quellensteuer (GİB) — Dividenden/Zinsen/Lizenzen",
+        "frist": "5 Jahre ab Zahlung (Verjährung nach türk. VerjR)",
+        "rechtsgrundlage": "Art. 10, 11, 12 DBA DE-TR; türk. Verfahrensrecht",
+        "note": "Ansässigkeitsbescheinigung des BZSt (Deutschland) erforderlich. Formular: GİB-Antrag auf DBA-Erstattung."
+      }
+    ]
+  },
+  "dba_specific": [
+    {
+      "bezeichnung": "183-Tage-Zählung — Beginn Kalenderjahr",
+      "frist_typ": "Stichtagsprinzip",
+      "note": "Aufenthaltsstage im Tätigkeitsstaat innerhalb des Kalenderjahres (DE) bzw. des Besteuerungsjahres (TR) zählen. Ein- und Ausreisetage zählen jeweils als volle Tage nach OECD-Kommentar."
+    },
+    {
+      "bezeichnung": "Beantragung Freistellungsbescheinigung (§ 50d EStG)",
+      "frist": "Vor erster Zahlung oder schnellstmöglich",
+      "rechtsgrundlage": "§ 50d Abs. 2 EStG",
+      "note": "Beantragung beim BZSt. Rückwirkende Freistellung möglich, aber Erstattungsweg umständlicher."
+    },
+    {
+      "bezeichnung": "Ansässigkeitsbescheinigung für Türkei (BZSt)",
+      "frist": "Auf Anforderung / vor Erstattungsantrag in TR",
+      "rechtsgrundlage": "Art. 4 DBA DE-TR",
+      "note": "Formular BZSt-65 (Bescheinigung über Ansässigkeit in Deutschland). In Englisch und Deutsch erhältlich."
+    }
+  ]
+}

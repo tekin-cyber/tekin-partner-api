@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "DBA Deutschland-Türkei — Ansässigkeitsprüfung Art. 4 (Tiebreaker-Regeln)",
+    "source": "Art. 4 DBA DE-TR i.V.m. Art. 4 OECD-MA 2017",
+    "valid_from": "1989-08-26",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01"
+  },
+  "description": "Entscheidungsbaum zur Bestimmung des Ansässigkeitsstaats bei doppelter Ansässigkeit (Art. 4 Abs. 2 DBA). Stufen werden der Reihe nach geprüft; erste erfüllte Stufe ist maßgeblich.",
+  "tiebreaker_steps": [
+    {
+      "step": 1,
+      "criterion": "Ständige Wohnstätte",
+      "article": "Art. 4 Abs. 2 lit. a DBA",
+      "description": "Person gilt als im Staat ansässig, in dem sie über eine ständige Wohnstätte verfügt.",
+      "decisive_if": "Wohnstätte nur in einem Staat vorhanden",
+      "not_decisive_if": "Wohnstätten in beiden Staaten vorhanden → weiter mit Schritt 2",
+      "practical_note": "Ständige Wohnstätte = dauerhaft verfügbare Unterkunft (Eigentum oder Miete). Hotelbewohner oder Gäste erfüllen das Kriterium nicht."
+    },
+    {
+      "step": 2,
+      "criterion": "Mittelpunkt der Lebensinteressen",
+      "article": "Art. 4 Abs. 2 lit. a DBA",
+      "description": "Ansässigkeit im Staat, zu dem die engeren persönlichen und wirtschaftlichen Beziehungen bestehen.",
+      "decisive_if": "Mittelpunkt eindeutig in einem Staat feststellbar",
+      "not_decisive_if": "Mittelpunkt nicht eindeutig bestimmbar → weiter mit Schritt 3",
+      "factors": [
+        "Familiäre Bindungen (Ehepartner, Kinder, Eltern)",
+        "Sozialer Lebensmittelpunkt (Vereine, Freundeskreis, Kirchgemeinde)",
+        "Berufliche Tätigkeiten und wirtschaftliche Bindungen",
+        "Politisches und kulturelles Engagement",
+        "Kontoverbindungen, Versicherungen, Arztwahl"
+      ],
+      "practical_note": "BFH-Urteil I R 63/14: Gesamtbild der Verhältnisse entscheidend. Einzelner Faktor allein nicht ausreichend."
+    },
+    {
+      "step": 3,
+      "criterion": "Gewöhnlicher Aufenthalt",
+      "article": "Art. 4 Abs. 2 lit. b DBA",
+      "description": "Ansässigkeit im Staat, in dem sich die Person gewöhnlich aufhält.",
+      "decisive_if": "Aufenthalt überwiegend in einem Staat",
+      "not_decisive_if": "Aufenthalt annähernd gleich in beiden Staaten → weiter mit Schritt 4",
+      "practical_note": "Aufenthaltstagebuch mit Ein- und Ausreisedaten führen. Grenzgänger besonders beachten."
+    },
+    {
+      "step": 4,
+      "criterion": "Staatsangehörigkeit",
+      "article": "Art. 4 Abs. 2 lit. c DBA",
+      "description": "Ansässigkeit im Staat, dessen Staatsangehörigkeit die Person besitzt.",
+      "decisive_if": "Nur eine Staatsangehörigkeit oder Staatsangehörigkeit nur eines der beiden Staaten",
+      "not_decisive_if": "Doppelte Staatsangehörigkeit (DE und TR) → weiter mit Schritt 5",
+      "practical_note": "Bei doppelter Staatsangehörigkeit (z.B. eingebürgerte Deutschtürken) schlägt diese Stufe nicht durch."
+    },
+    {
+      "step": 5,
+      "criterion": "Verständigungsverfahren",
+      "article": "Art. 4 Abs. 2 lit. d DBA i.V.m. Art. 25 DBA",
+      "description": "Die zuständigen Behörden beider Staaten regeln die Frage im gegenseitigen Einvernehmen.",
+      "decisive_if": "Einigung der Finanzbehörden beider Staaten",
+      "not_decisive_if": "Keine Einigung möglich (selten)",
+      "practical_note": "Antrag auf Verständigungsverfahren beim BZSt (Deutschland) oder GİB (Türkei) stellen. Dauert typisch 1-3 Jahre."
+    }
+  ],
+  "common_cases": [
+    {
+      "case": "Türkischer Arbeitnehmer mit Familie in TR, Arbeit in DE",
+      "likely_result": "Ansässigkeit Türkei",
+      "reasoning": "Mittelpunkt der Lebensinteressen (Familie) in TR; Schritt 2 entscheidend."
+    },
+    {
+      "case": "Eingebürgerter Deutschtürke, Wohnung in DE und TR, Familie in DE",
+      "likely_result": "Ansässigkeit Deutschland",
+      "reasoning": "Ständige Wohnstätte in beiden Staaten (Schritt 1 nicht entscheidend); Mittelpunkt Lebensinteressen in DE wegen Familie."
+    },
+    {
+      "case": "Rentner mit Wohnung in TR und DE, Kinder in beiden Ländern",
+      "likely_result": "Verständigungsverfahren erforderlich",
+      "reasoning": "Mittelpunkt der Lebensinteressen nicht eindeutig; gewöhnlicher Aufenthalt prüfen."
+    }
+  ]
+}

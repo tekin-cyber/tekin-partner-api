@@ -1,5 +1,15 @@
 {
+  "meta": {
+    "title": "EUR/TRY Wechselkurs — Referenzwert",
+    "source": "EZB / api.frankfurter.app",
+    "valid_from": "2025-01-01",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01",
+    "update_note": "Dieser Wert ist ein Stichtagskurs. Für aktuelle Kurse api.frankfurter.app/latest?from=EUR&to=TRY abfragen."
+  },
+  "currency_pair": "EUR/TRY",
   "date": "2025-01-01",
   "rate": 32.55,
-  "source": "EZB / api.frankfurter.app"
+  "live_api": "https://api.frankfurter.app/latest?from=EUR&to=TRY",
+  "usage_note": "Für steuerliche Umrechnungen gilt grundsätzlich der Kurs im Zeitpunkt des Zuflusses (§ 11 EStG). BMF-Umrechnungskurse für das Vorjahr verwenden, wenn verfügbar."
 }

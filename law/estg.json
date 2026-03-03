@@ -1,5 +1,116 @@
 {
-  "34c": "§ 34c EStG regelt die Anrechnung ausländischer Steuern. Grundlage für die Vermeidung der Doppelbesteuerung durch Steueranrechnung.",
-  "50d": "§ 50d EStG enthält Vorschriften zur Abkommensberechtigung und zu Rückerstattungsansprüchen bei beschränkt Steuerpflichtigen.",
-  "1": "§ 1 EStG definiert die persönliche Steuerpflicht nach Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland."
+  "meta": {
+    "title": "EStG — Relevante Paragraphen im DBA-Kontext Deutschland-Türkei",
+    "source": "Einkommensteuergesetz (EStG) in der Fassung der Bekanntmachung vom 8. Oktober 2009 (BGBl. I S. 3366), zuletzt geändert",
+    "valid_from": "2009-10-08",
+    "valid_until": null,
+    "last_reviewed": "2025-10-01"
+  },
+  "paragraphs": {
+    "1": {
+      "title": "Persönliche Steuerpflicht",
+      "summary": "§ 1 EStG definiert die persönliche Steuerpflicht nach Wohnsitz oder gewöhnlichem Aufenthalt in Deutschland.",
+      "key_rules": [
+        "Unbeschränkte Steuerpflicht: Wohnsitz oder gewöhnlicher Aufenthalt im Inland (§ 1 Abs. 1)",
+        "Erweiterte unbeschränkte Steuerpflicht auf Antrag (§ 1 Abs. 3)",
+        "Beschränkte Steuerpflicht: Inländische Einkünfte ohne Wohnsitz/Aufenthalt (§ 1 Abs. 4)"
+      ],
+      "dba_relevance": "Grundlage für die Bestimmung des Ansässigkeitsstaats DE. Abstimmung mit Art. 4 DBA erforderlich."
+    },
+    "2": {
+      "title": "Umfang der Besteuerung, Begriffsbestimmungen",
+      "summary": "§ 2 EStG definiert die sieben Einkunftsarten und das zu versteuernde Einkommen.",
+      "einkunftsarten": [
+        "Land- und Forstwirtschaft (§ 13)",
+        "Gewerbebetrieb (§ 15)",
+        "Selbständige Arbeit (§ 18)",
+        "Nichtselbständige Arbeit (§ 19)",
+        "Kapitalvermögen (§ 20)",
+        "Vermietung und Verpachtung (§ 21)",
+        "Sonstige Einkünfte (§ 22)"
+      ],
+      "dba_relevance": "Einkunftsarten bestimmen, welcher DBA-Artikel anwendbar ist."
+    },
+    "17": {
+      "title": "Veräußerung von Anteilen an Kapitalgesellschaften",
+      "summary": "§ 17 EStG besteuert Gewinne aus der Veräußerung von GmbH-Anteilen (≥1% Beteiligung) als Einkünfte aus Gewerbebetrieb.",
+      "key_rules": [
+        "Mindestbeteiligung 1% innerhalb der letzten 5 Jahre",
+        "Teileinkünfteverfahren: 60% des Veräußerungsgewinns steuerpflichtig",
+        "Veräußerungskosten abzugsfähig"
+      ],
+      "dba_relevance": "Art. 13 Abs. 4 DBA DE-TR: Besteuerung im Ansässigkeitsstaat. § 6 AStG bei Wegzug prüfen."
+    },
+    "19": {
+      "title": "Nichtselbständige Arbeit",
+      "summary": "§ 19 EStG definiert Einkünfte aus nichtselbständiger Arbeit (Arbeitslohn, geldwerte Vorteile).",
+      "key_rules": [
+        "Arbeitslohn: Löhne, Gehälter, Gratifikationen, Tantiemen",
+        "Geldwerte Vorteile: Sachbezüge, Dienstwagen, Aktienoptionen",
+        "Versorgungsbezüge (Renten aus nichtselbständiger Arbeit)"
+      ],
+      "dba_relevance": "Art. 15 DBA: 183-Tage-Prüfung; Arbeitgeberansässigkeit; Betriebsstättenzurechnung."
+    },
+    "22": {
+      "title": "Arten der sonstigen Einkünfte",
+      "summary": "§ 22 EStG erfasst Renteneinkünfte aus der gesetzlichen Rentenversicherung sowie Leibrenten.",
+      "key_rules": [
+        "Leibrenten: Ertragsanteilsbesteuerung je nach Rentenbeginnalter",
+        "Rentenbesteuerung schrittweise auf 100% bis 2040",
+        "Riester-Rente: Vollertragsbesteuerung"
+      ],
+      "dba_relevance": "Art. 18 DBA: SGK-Rente (private) im Ansässigkeitsstaat; Art. 19 DBA: Beamtenpension im Kassenstaat."
+    },
+    "32a": {
+      "title": "Einkommensteuertarif",
+      "summary": "§ 32a EStG enthält den progressiven Einkommensteuertarif (Grundtabelle und Splittingtabelle).",
+      "brackets_2024": [
+        { "von": 0, "bis": 11604, "rate_percent": 0, "note": "Grundfreibetrag" },
+        { "von": 11605, "bis": 17005, "rate_percent": "14-24", "note": "Progressionszone 1" },
+        { "von": 17006, "bis": 66760, "rate_percent": "24-42", "note": "Progressionszone 2" },
+        { "von": 66761, "bis": 277825, "rate_percent": 42, "note": "Spitzensteuersatz" },
+        { "von": 277826, "bis": null, "rate_percent": 45, "note": "Reichensteuersatz (Solidaritätszuschlag entfällt i.d.R.)" }
+      ],
+      "dba_relevance": "Grundlage für Progressionsvorbehalt nach § 32b EStG: Welteinkommensatz wird auf das inländische Einkommen angewendet."
+    },
+    "32b": {
+      "title": "Progressionsvorbehalt",
+      "summary": "§ 32b EStG erhöht den deutschen Steuersatz, wenn steuerfreie ausländische Einkünfte (Freistellungsmethode) vorliegen.",
+      "mechanism": {
+        "step_1": "Inländisches zu versteuerndes Einkommen (zvE) feststellen",
+        "step_2": "Steuerfreie ausländische Einkünfte hinzurechnen → Welt-zvE",
+        "step_3": "Einkommensteuer auf Welt-zvE berechnen → Welteinkommensteuersatz",
+        "step_4": "Welteinkommensteuersatz auf inländisches zvE anwenden → tatsächliche Steuerlast",
+        "formula": "Steuer = zvE_DE × (ESt(zvE_Welt) / zvE_Welt)"
+      },
+      "key_rules": [
+        "Nur bei Freistellungsmethode anwendbar",
+        "Auch negative ausländische Einkünfte einbeziehen (senken Steuersatz)",
+        "Gilt für DBA-Freistellungseinkünfte (Art. 15 Abs. 2, Art. 6, Art. 7 DBA)"
+      ],
+      "dba_relevance": "Zentralnorm für alle Freistellungsfälle im DBA DE-TR. Türkische Mieteinnahmen, Betriebsstättengewinne und Arbeitslohn erhöhen den deutschen Steuersatz."
+    },
+    "34c": {
+      "title": "Steuerermäßigung bei ausländischen Einkünften",
+      "summary": "§ 34c EStG regelt die Anrechnung ausländischer Steuern. Grundlage für die Vermeidung der Doppelbesteuerung durch Steueranrechnung.",
+      "mechanism": {
+        "anrechnung": "Ausländische Steuer wird auf die deutsche Einkommensteuer angerechnet, max. in Höhe der anteiligen deutschen Steuer",
+        "abzug": "Alternativ: Abzug der ausländischen Steuer als Betriebsausgabe/Werbungskosten (§ 34c Abs. 2)",
+        "erlass": "Billigkeitserlass bei unverhältnismäßiger Belastung (§ 34c Abs. 5)"
+      },
+      "anrechnungshoechstbetrag_formel": "Ausländische Einkommensteuer × (Ausländ. Einkünfte / Gesamteinkünfte)",
+      "dba_relevance": "Anwendbar bei Anrechnungsmethode im DBA: Dividenden (Art. 10), Zinsen (Art. 11), Lizenzen (Art. 12), öffentliche Renten (Art. 19)."
+    },
+    "50d": {
+      "title": "Besonderheiten im Fall von Doppelbesteuerungsabkommen",
+      "summary": "§ 50d EStG enthält Vorschriften zur Abkommensberechtigung und zu Rückerstattungsansprüchen bei beschränkt Steuerpflichtigen.",
+      "key_rules": [
+        "Erstattung einbehaltener Quellensteuer bei DBA-Berechtigung (§ 50d Abs. 1)",
+        "Freistellungsbescheinigung für laufende Zahlungen (§ 50d Abs. 2)",
+        "Subject-to-tax-Klausel: DBA-Vergünstigung nur bei tatsächlicher Besteuerung im anderen Staat (§ 50d Abs. 8)",
+        "Anti-Missbrauchsregelung: Kein Abkommensschutz für treaty shopping (§ 50d Abs. 3)"
+      ],
+      "dba_relevance": "Wichtig bei Quellensteuer auf Dividenden/Zinsen/Lizenzen. Subject-to-tax-Prüfung bei türkischen Einkünften relevant."
+    }
+  }
 }
